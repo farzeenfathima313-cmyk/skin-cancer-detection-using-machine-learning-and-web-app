@@ -57,3 +57,14 @@ git clone https://github.com/farzeenfathima313-cmyk/skin-cancer-detection-using-
 cd skin-cancer-detection-using-machine-learning-and-web-app
 pip install -r requirements.txt
 python app.py
+
+## 📸 Screenshots
+
+### 🏠 Home Page
+![Home Page](screenshots/home.png)
+
+### 📤 Upload Image
+![Upload Page](screenshots/upload.png)
+
+### 📊 Prediction Result
+![Result Page](screenshots/result.png)
