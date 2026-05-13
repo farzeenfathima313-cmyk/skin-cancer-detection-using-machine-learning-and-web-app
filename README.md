@@ -53,8 +53,7 @@ https://www.kaggle.com/kmader/skin-cancer-mnist-ham10000
 
 ## How to Run Project
 
-git clone https://github.com/your-username/skin-cancer-detection.git
-cd skin-cancer-detection
+git clone https://github.com/farzeenfathima313-cmyk/skin-cancer-detection-using-machine-learning-and-web-app.git
+cd skin-cancer-detection-using-machine-learning-and-web-app
 pip install -r requirements.txt
 python app.py
-
