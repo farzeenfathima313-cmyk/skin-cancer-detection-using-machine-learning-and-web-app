@@ -53,11 +53,8 @@ https://www.kaggle.com/kmader/skin-cancer-mnist-ham10000
 
 ## How to Run Project
 
-```bash id="runfix"
 git clone https://github.com/your-username/skin-cancer-detection.git
 cd skin-cancer-detection
 pip install -r requirements.txt
 python app.py
 
-```bash
-git clone https://github.com/your-username/skin-cancer-detection.git
