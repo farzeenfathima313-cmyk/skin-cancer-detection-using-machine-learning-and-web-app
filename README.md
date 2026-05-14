@@ -1,118 +1,17 @@
-# 🩺 Skin Cancer Detection using Machine Learning and Web App
+## Overview
 
-![Python](https://img.shields.io/badge/Python-3.10-blue)
-![Flask](https://img.shields.io/badge/Flask-WebApp-black)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-ML-orange)
-
-## 📌 Overview
-This project is a machine learning-based web application...
-
-## Abstract
-Skin Cancer Detection using Machine Learning and Web App is a deep learning-based system that helps in identifying skin cancer from image inputs. The system uses a trained model to classify skin lesion images and provides prediction results through a web interface. It helps in early detection and awareness of skin cancer.
-
-## Introduction
-Skin cancer is one of the most common diseases worldwide. Early detection is very important for effective treatment. Manual diagnosis can be time-consuming and requires medical expertise. This project uses machine learning and deep learning techniques to build a system that can analyze skin lesion images and predict possible skin cancer types.
-
-## Aim
-To develop a web-based application for detecting skin cancer using machine learning techniques.
-
-## Objectives
-- To classify skin lesion images using a trained model  
-- To develop a simple web interface using Flask  
-- To provide fast prediction results  
-- To support early detection of skin cancer  
-
-## Project Scope
-The system allows users to upload skin images and get prediction results instantly. It can be used for awareness and preliminary medical assistance.
-
-## System Modules
-- Image Upload Module  
-- Image Processing Module  
-- Prediction Module  
-- Result Display Module  
-- Web Interface Module  
-
-## Technologies Used
-
-### Frontend
-- HTML
-- CSS
-- JavaScript
-
-### Backend
-- Python
-- Flask
-- Gunicorn
-
-### Machine Learning / Deep Learning
-- PyTorch (torch==2.0.1)
-- TorchVision (0.15.2)
-- FastAI (1.0.52)
-- NumPy
-
-### Development Tools
-- Jupyter Notebook
-- Visual Studio Code
-
-## Dataset
-HAM10000 Dataset  
-https://www.kaggle.com/kmader/skin-cancer-mnist-ham10000
-
-## How to Run Project
-
-git clone https://github.com/farzeenfathima313-cmyk/skin-cancer-detection-using-machine-learning-and-web-app.git
-cd skin-cancer-detection-using-machine-learning-and-web-app
-pip install -r requirements.txt
-python app.py
-
-## 📊 Model Training
-The model was trained using dermoscopic skin lesion images from the HAM10000 dataset. Convolutional Neural Networks (CNN) were used for image classification and prediction.
-
-
-## 📈 Results
-- Successfully predicts skin lesion categories
-- Provides real-time prediction through web application
-- Helps improve awareness about early skin cancer detection
-
-
-## 🛠️ Installation
-
-### Step 1: Clone Repository
-git clone https://github.com/yourusername/skin-cancer-detection.git
-
-### Step 2: Move into Project Folder
-cd skin-cancer-detection
-
-### Step 3: Install Dependencies
-pip install -r requirements.txt
-
-### Step 4: Run Application
-python app.py
-
-
-## 📷 Screenshots
-
-### 🏠 Home Page
-![Home](home.png)
-
-### 📤 Upload Page
-![Upload](upload.png)
-
-### 📊 Result Page
-![Result](result.png)
-
-
-## 🔮 Future Scope
-- Improve model accuracy
-- Deploy using cloud services
-- Mobile application integration
-- Doctor consultation support
-
-
-## 👩‍💻 Author
-Farzeen Fathima
+This is the source code for a skin cancer detection web app which has been implemented with flask framework and deployed on **Heroku**. The model has been built using **fastai** deep learning library which is a high level api for pytorch. The classifier has been trained using [Kaggle MNIST HAM10000 dataset](https://www.kaggle.com/kmader/skin-cancer-mnist-ham10000) which contains 10015 images of seven categories of pigmented skin lesions. As a preprocessing step, I have applied random undersampling to data to alleviate the class-imbalance problem. The classifier has been built with transfer learning technique using a pretrained **Densenet169** model. The final classifer achieved an accuracy of **91.2%** and a F1-score of **91.7%** on validation data. You can check out the jupyter notebook that goes along to follow all the steps which have been taken to build the model. The web app is available at [https://skin-cancer-detector.herokuapp.com](https://skin-cancer-detector.herokuapp.com/).
 
 ## Screenshots
-![Home](./screenshots/home.png)
-![Upload](./screenshots/upload.png)
-![Result](./screenshots/result.png)
+![Skin Cancer Detector](https://user-images.githubusercontent.com/34622266/57803457-b8f95780-776d-11e9-80d7-ab1dcd1faf71.PNG) 
+![Skin Cancer Detector](https://user-images.githubusercontent.com/34622266/57803275-3e303c80-776d-11e9-97b7-dbbae436cef5.PNG)
+
+## Dependencies
+
+- Python 3.6 <br/>
+- Fastai 1.0.52 <br/>
+- Flask <br/>
+- Gunicorn
+
+## Instructions
+First run `sudo pip install -r requirements.txt` to install the required dependencies. Then launch the app by running `python app.py`. Open up your browser and navigate to http://localhost:8008
