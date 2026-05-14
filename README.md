@@ -92,14 +92,14 @@ python app.py
 
 ## 📷 Screenshots
 
-### Home Page
-(Add screenshot here)
+### 🏠 Home Page
+![Home](screenshots/home.png)
 
-### Upload Page
-(Add screenshot here)
+### 📤 Upload Page
+![Upload](screenshots/upload.png)
 
-### Prediction Result
-(Add screenshot here)
+### 📊 Result Page
+![Result](screenshots/result.png)
 
 
 ## 🔮 Future Scope
