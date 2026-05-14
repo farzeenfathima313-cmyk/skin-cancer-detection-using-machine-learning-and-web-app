@@ -93,13 +93,13 @@ python app.py
 ## 📷 Screenshots
 
 ### 🏠 Home Page
-![Home](screenshots/home.png)
+![Home](home.png)
 
 ### 📤 Upload Page
-![Upload](screenshots/upload.png)
+![Upload](upload.png)
 
 ### 📊 Result Page
-![Result](screenshots/result.png)
+![Result](result.png)
 
 
 ## 🔮 Future Scope
